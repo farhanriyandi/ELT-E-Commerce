@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: int_online_sales
+    descrition: 'online_sales_agregasi'
+    columns:
+      - name: transaction_id
+        test:
+          - not_null

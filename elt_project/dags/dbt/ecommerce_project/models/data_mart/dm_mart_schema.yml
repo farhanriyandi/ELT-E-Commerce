@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: dm_marketing
+    descrition: 'data mart marketing analysis tabel'
+
+  - name: dm_marketing_spend
+    descrition: 'data mart marketing spend analysis tabel'

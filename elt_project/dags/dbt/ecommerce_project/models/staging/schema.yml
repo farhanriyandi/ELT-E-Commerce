@@ -1,0 +1,53 @@
+version: 2
+
+sources:
+  - name: my_e_commerce_dataset1
+    tables:
+      - name: Customers_Data
+      - name: Marketing_Spend
+      - name: Online_Sales
+      - name: Tax_Amount
+      - name: Discount_Coupon
+
+models:
+  - name: stg_tax_amount
+    description: 'staging tax amount'
+    columns:
+      - name: product_category
+        description: 'The primary key for this table'
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_customers
+    description: 'A customers staging model'
+    columns:
+      - name: customer_id
+        description: 'The primary key for this table'
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_marketing_spend
+    description: 'A marketing_spend staging model'
+    columns:
+      - name: date
+        description: 'The primary key for this table'
+        data_tests:
+          - not_null
+
+  - name: stg_online_sales
+    description: 'A online sales staging model'
+    columns:
+      - name: transaction_id
+        description: 'The primary key for this table'
+        data_tests:
+          - not_null
+
+  - name: stg_coupon_code
+    description: 'A coupon code model'
+    columns:
+      - name: coupon_code
+        description: 'The primary key for this table'
+        data_tests:
+          - not_null

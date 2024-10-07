@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fact_marketing_spend
+    descrition: 'A markeing spend table'
+    columns:
+      - name: date
+        data_tests:
+          - not_null
+
+  - name: fact_online_sales
+    descrition: 'A markeing spend table'
+    columns:
+      - name: transaction_id
+        data_tests:
+          - not_null
