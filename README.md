@@ -28,8 +28,17 @@ Astro dev init
 
 This command creates all the necessary project files for running Airflow locally, including pre-built example DAGs that you can execute immediately.
 
-###  Create a service account
-
+###  Create a Service Account and Assign Roles:
+* Go to “IAM & Admin” > “Service accounts” in the Google Cloud Console.
+* Click “Create Service Account”.
+* Name your service account.
+* Assign the “Owner” roles to the service account.
+* Finish the creation process.
+* Make a JSON key to let the service account sign in.
+* Find the service account in the “Service accounts” list.
+* Click on the service account name.
+* In the “Keys” section, click “Add Key” and pick JSON.
+* The key will download automatically. Keep it safe and don’t share it.
 
 
 
