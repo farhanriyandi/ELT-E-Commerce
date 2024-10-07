@@ -40,6 +40,23 @@ This command creates all the necessary project files for running Airflow locally
 * In the “Keys” section, click “Add Key” and pick JSON.
 * The key will download automatically. Keep it safe and don’t share it.
 
+### Data Modeling on DBT
+Move to direktori dags and create a folder name dbt
+```
+cd dags
+mkdir dbt
+cd dbt
+```
+After that Install using pip and virtual environments 
+```
+python3 -m venv dbt-venv   
+```
+Activate virtual environment
+```
+source dbt-venv/bin/activate
+```
+
+
 
 
 ### Run Airflow locally
