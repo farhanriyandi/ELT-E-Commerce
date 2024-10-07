@@ -20,6 +20,9 @@ Before running the data pipeline, ensure you have the following prerequisites:
 * [Astro CLI](https://www.astronomer.io/docs/astro/cli/overview)
 
 ## Getting Started
+Download dataset [here](https://www.kaggle.com/datasets/rishikumarrajvansh/marketing-insights-for-e-commerce-company?select=Online_Sales.csv)
+* Create a dataset in BigQuery: Log in to Google Cloud, navigate to BigQuery, and create a new dataset to store the data.
+* Upload data to BigQuery: After downloading the dataset, upload the CSV file (or files) to the dataset you created in BigQuery.
 
 ### Create an Astro project
 ```
