@@ -5,12 +5,15 @@ In this project, we will engage in a comprehensive data engineering initiative. 
 2. Creating a dataset in BigQuery.
 3. Transferring data from Google Cloud Storage to a raw format.
 4. Transforming the data using DBT.
+5. Visualizing the data using Metabase.
 
 ## Tools
-* CSV (Data Source)
-* BigQuery (Data Warehouse)
-* Airflow (Orchestration)
-* DBT (Transformation)
+* Astro CLI: Used to manage and orchestrate data workflows.
+* Apache Airflow: Handles the orchestration of tasks within the data pipeline.
+* Google Cloud Storage: Serves as storage for raw data.
+* Google BigQuery: Functions as the data warehouse solution for querying and analyzing data.
+* Docker: Manages application dependencies and ensures environment consistency.
+* Metabase: Offers a user-friendly interface for reporting and data visualization.
 
 ## Prerequisites
 Before running the data pipeline, ensure you have the following prerequisites:
@@ -203,6 +206,11 @@ And then open localhost:8089 to access airflow. The username is admin and the pa
 #### Trigger dag
 You can trigger the DAG and monitor its progress in the Airflow UI.
 ![Screenshot 2024-10-07 132743](https://github.com/user-attachments/assets/e827a205-7c03-40fe-b2b7-5ad3731a1619)
+
+#### Visualization
+The visualizations were created using Metabase which provides insights into marketing campaign performance.
+
+![image](https://github.com/user-attachments/assets/b852dec8-8a4d-4f79-aba5-eb4ab6c35b17)
 
 
 
