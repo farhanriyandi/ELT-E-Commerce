@@ -209,8 +209,7 @@ You can trigger the DAG and monitor its progress in the Airflow UI.
 
 #### Visualization
 The visualizations were created using Metabase which provides insights into marketing campaign performance.
-
-![image](https://github.com/user-attachments/assets/b852dec8-8a4d-4f79-aba5-eb4ab6c35b17)
+you can see the visualization [here](https://github.com/farhanriyandi/ELT-E-Commerce/blob/main/image/dashboard-e-commerce.png)
 
 
 
