@@ -159,7 +159,7 @@ After that run
 ```
 Astro dev start
 ```
-In dbg dags folder add dbt_ecommerce_dag.py and add this code
+In dbt dags folder add dbt_ecommerce_dag.py and add this code
 ```
 import os
 from datetime import datetime
